@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "MathMate",
-    "slug": "MathMate",
+    "slug": "mathmate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rahul65241.mathmate"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1022d563-1c00-4c6c-a255-ecfc96aab8c6"
+      }
+    },
+    "owner": "rahul65241"
   }
 }
